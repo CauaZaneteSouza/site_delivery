@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(28, 28, 26) ;
+    max-width: 1440px;
+    max-height: 768px;
+    margin: 0 auto;
+    padding:10px;
+}
+/*tamannho geral */
+/*.container{
+    max-width: 1170px;
+    margin: 0 auto;
+} centraliza os elementos no geral*/
+
+
+.header{
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+#menu{
+    width: 20px;
+}
+li{
+    display: inline-block;
+    background-color:rgb(235, 80, 61) ;
+    color: black;
+    
+}
+.orange_block:hover{
+    cursor: pointer; 
+}
+.copy{
+    width: 20px;
+}
