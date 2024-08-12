@@ -23,8 +23,17 @@ nav{background-color: black;}
 nav div{
     display: inline-bloc;
     background-color: #EB503D;
-
 }
+
+.orange_block: hover{
+    backgroud-color: #000000;
+    color: #EB503D
+    transition: 0.3s all;
+}
+.orange_block{
+    
+}
+    
 aside{
     display: flex;
     margin: 33%;
