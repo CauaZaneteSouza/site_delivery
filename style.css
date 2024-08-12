@@ -21,14 +21,13 @@ header>h3{
 }
 nav{background-color: black;}
 nav div{
-    display: flex;
-
+    display: inline-bloc;
     background-color: #EB503D;
 
 }
 aside{
-    grid-template-columns:1fr,1fr,1fr;
-    column-gap: 20px;
+    display: flex;
+    margin: 33%;
     justify-content: space-around;
 }
 
