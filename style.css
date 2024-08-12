@@ -1,6 +1,4 @@
 body{
-    display: grid;
-    grid-template-columns: 3;
     color: white;
     background-color: rgb(28, 28, 26);
 }
@@ -11,28 +9,34 @@ body{
 } centraliza os elementos no geral*/
 header{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: space-between;
 }
-header>h3{
-    max-width: 157px;
-    max-height: 22px;
+header h3{
     background-color: lightgray;
+    color: #000000;
+
 }
 nav{background-color: black;}
 nav div{
-    display: inline-bloc;
+    display: inline-block;
     background-color: #EB503D;
+    border: 2px solid;
+    border-radius: 17px;
+
+}
+li{
+    display: inline-block;
 }
 
-.orange_block: hover{
-    backgroud-color: #000000;
-    color: #EB503D
+.orange_block:hover{
+    background-color: #000000;
+    color: #EB503D;
     transition: 0.3s all;
+    border: 2px solid;
+    border-radius: 17px;
 }
-.orange_block{
-    
-}
+
     
 aside{
     display: flex;
